@@ -1,0 +1,18 @@
+payload:
+  # Gemini Web
+  - DOMAIN,gemini.google.com
+  - DOMAIN,ai.google.com
+
+  # Gemini API / 推理核心
+  - DOMAIN,genai.googleapis.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,aiplatform.googleapis.com
+  - DOMAIN,vertexai.googleapis.com
+
+  # 登录 / 鉴权（非常关键）
+  - DOMAIN,accounts.google.com
+  - DOMAIN,oauth2.googleapis.com
+
+  # 静态资源 / WebSocket / CDN
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
