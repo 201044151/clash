@@ -1,5 +1,6 @@
 payload:
   # Gemini Web
+  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN,gemini.google.com
   - DOMAIN,ai.google.com
 
@@ -15,4 +16,5 @@ payload:
 
   # 静态资源 / WebSocket / CDN
   - DOMAIN-SUFFIX,gstatic.com
+
   - DOMAIN-SUFFIX,googleusercontent.com
