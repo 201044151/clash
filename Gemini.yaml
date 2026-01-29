@@ -1,6 +1,5 @@
 payload:
   # Gemini Web
-  - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN,gemini.google.com
   - DOMAIN,ai.google.com
 
@@ -18,3 +17,5 @@ payload:
   - DOMAIN-SUFFIX,gstatic.com
 
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleapis.com
+
