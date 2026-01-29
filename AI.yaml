@@ -1,0 +1,16 @@
+payload:
+  # ===== OpenAI / ChatGPT =====
+  - GEOSITE,openai
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+
+  # ===== Google Gemini =====
+  - GEOSITE,google-gemini
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,ai.google.dev
+
+  # ===== Grok (X / Twitter AI) =====
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.x.ai
