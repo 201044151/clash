@@ -1,11 +1,22 @@
 payload:
+  # Play 商店入口
   - DOMAIN,play.google.com
   - DOMAIN-SUFFIX,play.googleapis.com
+
+  # Play 下载 / 校验（非常关键）
   - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,android.googleapis.com
+  - DOMAIN-SUFFIX,clients.google.com
+  - DOMAIN-SUFFIX,clients4.google.com
 
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-
+  # 下载 CDN
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt2.com
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+
+  # APK / AAB 资源
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,gstatic.com
+
+  # API（只留给 Play，用规则顺序隔离）
+  - DOMAIN-SUFFIX,googleapis.com
