@@ -1,8 +1,9 @@
 payload:
-    - 'DOMAIN-SUFFIX,pandalive.co.kr,PandaTV'
-    - 'DOMAIN-KEYWORD,pandalive,PandaTV'
-    - 'DOMAIN-SUFFIX,live-video.net,PandaTV'
-    - 'DOMAIN-SUFFIX,jwpcdn.com,PandaTV'
-    - 'DOMAIN-SUFFIX,bathome.net,DIRECT'
-    - 'DOMAIN-KEYWORD,bathome,DIRECT'
+  - DOMAIN-SUFFIX,pandalive.co.kr
+  - DOMAIN-KEYWORD,pandalive
+  - DOMAIN-SUFFIX,live-video.net
+  - DOMAIN-SUFFIX,jwpcdn.com
 
+  # PandaTV 站内直连资源
+  - DOMAIN-SUFFIX,bathome.net
+  - DOMAIN-KEYWORD,bathome
